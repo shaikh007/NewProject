@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3988e44910.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    </head>
+    <body>
+  <header id="header">
+  <div id="sidebar" class="overlay">
+  <button href="javascript:void(0)" id="close" onclick="closeNav()">close<i class="fa-duotone fa-x"></i></button>
+  <div class="overlay-content">
+    <button class="tablinks" onclick="openLink(event, 'Link1')">link 1</button>
+    <button class="tablinks" onclick="openLink(event, 'Link2')">link 2</button>
+  <button class="tablinks" onclick="openLink(event, 'Link3')">Link 3</button>
+  </div>
+</div>
+<button id="open" onclick="openNav()"><i class="fa-solid fa-bars"></i></button>
+        </header>
+        <main id="main">
+          <section id="Link1" class="tabcontent">
+              <h2>Maruti Suzuki Cars</h2>
+        <p>Maruti started production of cars in 1983 with the Maruti 800 being the first model. This model revolutionised the Indian automobile industry as an affordable, small and compact family car. It was sort of a status symbol at that time to own a Maruti 800.</p>
+        <p>Maruti Suzuki has the distinction of introducing India’s first contemporary sedan in the form of Maruti 1000 in the year 1989. The first half of the last decade of the 20th century saw the launch of various car models like the Zen and the Esteem. In the year 1998, the company brought out a new version of the Maruti 800. Until 2004, the Maruti 800 was India’s best-selling car for nearly two decades. The Maruti Alto gained this distinction in 2004. The year 2005 saw the launch of Maruti Suzuki Swift, a five-door hatchback. In February 2012, Maruti Suzuki achieved the distinction of selling 10 million vehicles in India. Within 3 years, the 15 millionth vehicle rolled out in the form of a Swift Dzire in May 2015.</p>
+        <div class="row">
+            <div class="main-col-1">
+                <img src="./image1.png" alt="img1" class="img1">
+            </div>
+            <div class="main-col-2">
+                <ul>
+                 <li>maruti suzuki vitara brezza<i class="fa-solid fa-chevron-right"></i></li>
+                 <li>19-27 kmpl | 91-102 bhp </li>
+                 <li><strong>₹ 7 98 942</strong></li>
+                 <li>Avg. Ex-Showroom price</li>
+                 <li><a href="https://www.marutisuzuki.com/">Learn More</a></li>
+                </ul>
+            </div>
+        </div>
+          </section>
+          <section id="Link2" class="tabcontent">
+              <h2>Mahindra Cars</h2>
+        <p>A part of Mahindra Group, Mahindra & Mahindra Limited is an Indian based automobile company headquartered in Mumbai, Maharashtra. Formerly known as Mahindra & Mohammed, the company soon changed its name to Mahindra & Mahindra in 1948. M&M embarked manufacturing & selling MUVs in 1947 and later started producing LCVs and agricultural tractors. The company has a global presence and manufactures SUVs, MPVs, pick-ups, LCVs & HCVs, electric vehicles, buses, trucks and two wheelers. In 2011, M&M acquired Korean based automotive company SsangYong Motor. M&M has assembly plants in Bengaluru, Chakan, Haridwar, Nasik and Zaheerabad in India where Mahindra cars and other commercial vehicles are manufactured. Some of the popular Mahindra cars in India are Scoprio, XUV500 and Bolero among various others.</p>
+        
+        <div class="row">
+            <div class="main-col-1">
+                <img src="./image2.jpeg" alt="img2" class="img1">
+            </div>
+            <div class="main-col-2">
+                <ul>
+                 <li>Mahindra XUV700<i class="fa-solid fa-chevron-right"></i></li>
+                 <li>19-27 kmpl | 91-102 bhp </li>
+                 <li><strong>₹ 13.18 L</strong></li>
+                 <li>Avg. Ex-Showroom price</li>
+                 <li><a href="https://www.carandbike.com/mahindra-cars">Learn More</a></li>
+                </ul>
+            </div>
+        </div>
+          </section>
+          <section id="Link3" class="tabcontent">
+              <h2>Ford Cars</h2>
+              <p>Ford Motor Company (commonly known as Ford) is an American multinational automobile manufacturer headquartered in Dearborn, Michigan, United States. It was founded by Henry Ford and incorporated on June 16, 1903. The company sells automobiles and commercial vehicles under the Ford brand, and luxury cars under its Lincoln luxury brand. Ford also owns Brazilian SUV manufacturer Troller, an 8% stake in Aston Martin of the United Kingdom and a 32% stake in China's Jiangling Motors.[7] It also has joint ventures in China (Changan Ford), Taiwan (Ford Lio Ho), Thailand (AutoAlliance Thailand), Turkey (Ford Otosan), and Russia (Ford Sollers). The company is listed on the New York Stock Exchange and is controlled by the Ford family; they have minority ownership but the majority of the voting power.</p>
+        <div class="row">
+            <div class="main-col-1">
+                <img src="./image3.png" alt="img3" class="img1">
+            </div>
+            <div class="main-col-2">
+                <ul>
+                 <li>Ford Figo<i class="fa-solid fa-chevron-right"></i></li>
+                 <li>19-27 kmpl | 91-102 bhp </li>
+                 <li><strong>₹ 15.45 Lakh</strong></li>
+                 <li>Avg. Ex-Showroom price</li>
+                 <li><a href="https://en.wikipedia.org/wiki/Ford_Motor_Company">Learn More</a></li>
+                </ul>
+            </div>
+        </div>
+     </section>
+    <div class="clearfix"></div>
+</main>
+<script src="./App.js"></script>
+
+</body>
+
+</html>
